@@ -1,0 +1,65 @@
+
+.container {
+
+  max-width:
+    1200px;
+
+  margin:
+    auto;
+
+  padding:
+    35px 20px 60px;
+
+}
+
+
+.page-title {
+
+  display:
+    flex;
+
+  justify-content:
+    space-between;
+
+  align-items:
+    center;
+
+  margin-bottom:
+    15px;
+
+}
+
+
+.page-title h2 {
+
+  margin: 0;
+
+  font-size:
+    26px;
+
+}
+
+
+.page-title p {
+
+  margin:
+    6px 0 0;
+
+  color:
+    #64748b;
+
+}
+
+
+.updated {
+
+  color:
+    #64748b;
+
+  font-size:
+    13px;
+
+  margin-bottom:
+    25px;
+
+}

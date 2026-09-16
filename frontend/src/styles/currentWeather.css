@@ -1,0 +1,123 @@
+
+.current-weather {
+
+  background:
+    linear-gradient(
+      135deg,
+      #1769aa,
+      #42a5f5
+    );
+
+  color: white;
+
+  border-radius: 20px;
+
+  padding: 32px;
+
+  display: grid;
+
+  grid-template-columns:
+    1fr 2fr;
+
+  gap: 35px;
+
+  box-shadow:
+    0 10px 30px
+    rgba(
+      15,
+      23,
+      42,
+      0.12
+    );
+
+}
+
+
+.current-main {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 20px;
+
+}
+
+
+.current-main .weather-icon {
+
+  font-size: 75px;
+
+}
+
+
+.current-temperature {
+
+  font-size: 60px;
+
+  font-weight: 700;
+
+}
+
+
+.current-condition {
+
+  opacity: 0.9;
+
+  text-transform: capitalize;
+
+}
+
+
+.current-details {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      4,
+      1fr
+    );
+
+  gap: 18px;
+
+}
+
+
+.current-details div {
+
+  display: flex;
+
+  flex-direction: column;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.12
+    );
+
+  padding: 14px;
+
+  border-radius: 10px;
+
+}
+
+
+.current-details span {
+
+  font-size: 12px;
+
+  opacity: 0.8;
+
+}
+
+
+.current-details strong {
+
+  margin-top: 5px;
+
+  font-size: 17px;
+
+}
