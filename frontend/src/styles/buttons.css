@@ -1,0 +1,70 @@
+
+.forecast-button {
+
+  width:
+    100%;
+
+  margin-top:
+    24px;
+
+  padding:
+    11px;
+
+  border:
+    none;
+
+  border-radius:
+    9px;
+
+  background:
+    #1769aa;
+
+  color:
+    white;
+
+  cursor:
+    pointer;
+
+}
+
+
+.forecast-button:hover {
+
+  background:
+    #12578f;
+
+}
+
+
+.refresh-button {
+
+  padding:
+    9px 18px;
+
+  border:
+    1px solid #1769aa;
+
+  border-radius:
+    8px;
+
+  background:
+    white;
+
+  color:
+    #1769aa;
+
+  cursor:
+    pointer;
+
+}
+
+
+.refresh-button:hover {
+
+  background:
+    #1769aa;
+
+  color:
+    white;
+
+}
