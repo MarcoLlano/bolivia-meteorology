@@ -9,7 +9,7 @@ This web page displays the weather information from Bolivia from the next 7 days
 - Ports 300 and 5173 available
 
 # How to use
-Clone the repository in local environment. Then follow the steps below:
+Clone the repository in local environment. Checkout to master branch and then follow the steps below:
 
 Backend: 
 
