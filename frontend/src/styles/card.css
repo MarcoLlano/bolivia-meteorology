@@ -1,0 +1,131 @@
+
+.weather-card {
+
+  background:
+    white;
+
+  border-radius:
+    18px;
+
+  padding:
+    24px;
+
+  box-shadow:
+    0 8px 25px
+    rgba(
+      15,
+      23,
+      42,
+      0.08
+    );
+
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+
+}
+
+
+.weather-card:hover {
+
+  transform:
+    translateY(-4px);
+
+  box-shadow:
+    0 12px 30px
+    rgba(
+      15,
+      23,
+      42,
+      0.13
+    );
+
+}
+
+
+.weather-card-header {
+
+  display:
+    flex;
+
+  justify-content:
+    space-between;
+
+  align-items:
+    center;
+
+}
+
+
+.weather-card h2 {
+
+  margin: 0;
+
+  font-size:
+    21px;
+
+}
+
+
+.city {
+
+  display:
+    block;
+
+  color:
+    #64748b;
+
+  font-size:
+    13px;
+
+  margin-top:
+    3px;
+
+}
+
+
+.weather-icon {
+
+  font-size:
+    48px;
+
+}
+
+
+.temperature {
+
+  font-size:
+    54px;
+
+  font-weight:
+    700;
+
+  margin-top:
+    20px;
+
+}
+
+
+.temperature span {
+
+  font-size:
+    25px;
+
+  font-weight:
+    400;
+
+}
+
+
+.condition {
+
+  color:
+    #64748b;
+
+  text-transform:
+    capitalize;
+
+  margin-bottom:
+    25px;
+
+}
