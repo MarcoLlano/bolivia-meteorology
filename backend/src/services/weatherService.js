@@ -57,6 +57,9 @@ function normalizeWeather(
   const current =
     data.currentConditions;
 
+  const today =
+    data.days?.[0] || {};
+
   /*
    * Get next 7 days.
    */
@@ -157,6 +160,12 @@ function normalizeWeather(
 
       temperature:
         current.temp,
+
+      maxTemperature:
+        today.tempmax,
+      
+      minTemperature:
+        today.tempmin,
 
       feelsLike:
         current.feelslike,

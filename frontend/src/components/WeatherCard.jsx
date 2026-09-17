@@ -60,12 +60,12 @@ function WeatherCard({ weather }) {
         <div>
 
           <span>
-            Sensación
+            Temperatura máxima
           </span>
 
           <strong>
             {Math.round(
-              current.feelsLike
+              current.maxTemperature
             )} °C
           </strong>
 
@@ -90,13 +90,13 @@ function WeatherCard({ weather }) {
         <div>
 
           <span>
-            Viento
+            Temperatura mínima
           </span>
 
           <strong>
             {Math.round(
-              current.windSpeed
-            )} km/h
+              current.minTemperature
+            )} °C
           </strong>
 
         </div>
