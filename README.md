@@ -15,8 +15,11 @@ Backend:
 
 1. Install backend dependencies, navigate to backend folder and open command line console, then run the commands:
 > npm install
+
 > npm install express //if not installed
+
 > npm install cors //if not installed
+
 > npm install dotenv //if not installed
 
 2. update backend\.env file by adding the Visual Crossing API key.
