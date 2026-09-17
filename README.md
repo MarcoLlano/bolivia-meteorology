@@ -27,7 +27,7 @@ Backend:
 - npm run dev
 
 Frontend:
-1. Navigate to frontend folder and then install the required dependencies by running the command:
+1. Open a new command line console and then navigate to frontend folder and then install the required dependencies by running the command:
 > npm install
 
 > npm install react-router-dom //if not installed
